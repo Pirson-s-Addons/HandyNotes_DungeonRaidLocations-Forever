@@ -5,6 +5,7 @@ local _, ns = ...
 -- aqui: _project/tests/test_handynotes_dungeonraidlocations.lua lo comprueba.
 -- name: respaldo en ingles; el nombre que se ve lo da el juego con
 -- GetRealZoneText(instanceID), mas la parte (L[part]) si comparten instancia.
+-- names: sin instanceID conocido, nombre provisional por idioma (el de DungeonQuestAtlas).
 -- size: banda (jugadores). mapID: uiMapID de la zona; x, y: 0-100.
 
 ns.Entrances = {
@@ -31,6 +32,8 @@ ns.Entrances = {
     { key = "SFK", name = "Shadowfang Keep", instanceID = 33, minLevel = 22, maxLevel = 30, mapID = 1421, x = 44.6, y = 67.7 },
     { key = "STRAT_LIVE", name = "Stratholme (Main Gate)", instanceID = 329, part = "MAIN_GATE", minLevel = 58, maxLevel = 60, mapID = 1423, x = 27.8, y = 11.6 },
     { key = "STRAT_UD", name = "Stratholme (Service Gate)", instanceID = 329, part = "SERVICE_GATE", minLevel = 58, maxLevel = 60, mapID = 1423, x = 43.6, y = 19.5 },
+    { key = "DROWNED", name = "The Drowned City", names = { esES = "La Ciudad Sumergida", deDE = "Die versunkene Stadt", frFR = "La Cité engloutie", itIT = "La Città Sommersa", ptBR = "A Cidade Submersa",
+        ruRU = "Затонувший город", koKR = "수몰된 도시", zhCN = "沉没之城", zhTW = "沉沒之城" }, minLevel = 35, maxLevel = 40, mapID = 1434, x = 21.4, y = 27.9 },
     { key = "ST", name = "Sunken Temple", instanceID = 109, minLevel = 50, maxLevel = 60, mapID = 1435, x = 69.9, y = 53.6 },
     { key = "DM", name = "The Deadmines", instanceID = 36, minLevel = 17, maxLevel = 26, mapID = 1436, x = 42.5, y = 71.7 },
     { key = "STOCKS", name = "The Stockade", instanceID = 34, minLevel = 24, maxLevel = 32, mapID = 1453, x = 39.6, y = 53.9 },

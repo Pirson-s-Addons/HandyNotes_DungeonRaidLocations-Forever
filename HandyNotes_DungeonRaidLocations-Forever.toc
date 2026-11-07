@@ -1,7 +1,7 @@
 ## Interface: 16001
 # Interfaz de la beta 1.60.1 de WoW Forever (como DungeonQuestAtlas). Comprobar en el
 # cliente con /dump select(4, GetBuildInfo()) y actualizar si cambia en el lanzamiento.
-## Version: 1.00
+## Version: 1.01
 ## Author: Pirson
 
 ## IconTexture: Interface\AddOns\HandyNotes_DungeonRaidLocations-Forever\img\logo_hndl

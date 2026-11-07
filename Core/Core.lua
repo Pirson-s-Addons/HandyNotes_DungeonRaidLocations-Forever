@@ -19,7 +19,10 @@ end
 
 function ns.EntranceName(e)
     local name = e.instanceID and GetRealZoneText(e.instanceID)
-    if not name or name == "" then return e.name end
+    if not name or name == "" then
+        local locale = GetLocale()
+        return e.names and e.names[locale == "esMX" and "esES" or locale] or e.name
+    end
     if e.part then name = name .. " (" .. L[e.part] .. ")" end
     return name
 end
