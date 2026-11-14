@@ -24,7 +24,7 @@
 Plugin de [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) que marca las entradas de las mazmorras y bandas de **WoW Forever** en el mapa del mundo, el del continente y el minimapa. Inspirado en [HandyNotes: DungeonLocations (Classic)](https://www.curseforge.com/wow/addons/handynotes_dungeonlocations-classic).
 
 ## Funciones
-- 31 entradas de mazmorra, también las nuevas de Forever (City of Dalaran, Excavation Site, Hall of Thanes, Ruins of Lordaeron, La Ciudad Sumergida), y la Guarida de Onyxia.
+- 35 entradas de mazmorra, también las nuevas de Forever (City of Dalaran, Excavation Site, Hall of Thanes, Ruins of Lordaeron, La Ciudad Sumergida, Bastión Krol'dok, Prisión de Alcaz, Bastión Fauce Negra, Terraza del Modelador), y la Guarida de Onyxia.
 - Cada ala con su propio pin: Monasterio Escarlata, La Masacre y Stratholme.
 - Tooltip con el nombre en el idioma del juego y su rango de niveles (bandas: número de jugadores).
 - Pines en el mapa de zona, el del continente y el minimapa, con los iconos de mazmorra y banda del propio juego.
