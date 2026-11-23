@@ -101,6 +101,7 @@
 ## RequiredDeps: HandyNotes
 
 ## X-Curse-Project-ID: 1743547
+## X-Wago-ID: qGYB8eNg
 ## X-License: MIT
 ## X-Copyright: Copyright (c) 2025-2026 Pirson
 ## X-Website: https://github.com/Pirson-s-Addons/HandyNotes_DungeonRaidLocations-Forever
